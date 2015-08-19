@@ -1,10 +1,10 @@
 # This is Git's per-user configuration file.
 # Please adapt and uncomment the following lines:
-### Y.atari 2015/08/17
-###[core]
-###	user = acchanAlexander
-###	email = atariyoshihiro@next-group.jp
-###end
+
+# cannot use git protocol env setting
+#[url "https://"]
+#    insteadOf = git://
+# end
 [user]
     name  = acchanAlexander
     email = AtariYoshihiro@next-group.jp
@@ -30,7 +30,6 @@
     st  = status
     sh  = show
     so  = remote show origin
-    ft  = fetch
     up  = pull --rebase
     rbm = rebase master
     ad  = add
