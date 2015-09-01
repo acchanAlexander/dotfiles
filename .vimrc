@@ -25,6 +25,9 @@ call neobundle#begin()
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'jimsei/winresizer.git'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'grep.vim'
+NeoBundle 'evidens/vim-twig'
 call neobundle#end()
 
 filetype plugin indent on
@@ -42,6 +45,27 @@ nnoremap <Leader>t :NERDTreeToggle<CR>
 "==============================
 let g:winresizer_enable = 1
 let g:winresizer_start_key = '<C-E>' 
+
+"==============================
+" grep.vim
+"==============================
+" for mac
+if has('unix')
+  let s:uname = system("uname")
+  if s:uname == "Darwin\n"
+    if system('which gxargs')
+      let Grep_Xargs_Path = 'gxargs'
+    else
+      let Grep_Find_Use_Xargs = 0
+    endif
+  endif
+endif
+
+" Rgrep under the current directory with :gr <args>
+command! -nargs=1 Gr :Rgrep <args> *<Enter><CR>
+"skip the following files from grep
+let Grep_Skip_Dirs = '.svn .git'
+let Grep_Skip_Files = '*.bak *~'
 
 " edit tabs
 nnoremap <C-w>t :tabnew<CR>
