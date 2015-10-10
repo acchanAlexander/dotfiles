@@ -24,6 +24,7 @@ endif
 call neobundle#begin()
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tomasr/molokai'
+NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'jimsei/winresizer.git'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'grep.vim'
@@ -89,7 +90,8 @@ elseif &term =~ "xterm-color"
   set t_Sb=[4%dm
 endif
 
-colorscheme molokai
+""" colorscheme molokai
+colorscheme jellybeans
 
 """indent
 set tabstop=4
