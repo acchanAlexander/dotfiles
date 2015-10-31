@@ -29,6 +29,7 @@ NeoBundle 'jimsei/winresizer.git'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'grep.vim'
 NeoBundle 'evidens/vim-twig'
+NeoBundle 'miyakogi/seiya.vim'
 call neobundle#end()
 
 filetype plugin indent on
@@ -67,6 +68,11 @@ command! -nargs=1 Gr :Rgrep <args> *<Enter><CR>
 "skip the following files from grep
 let Grep_Skip_Dirs = '.svn .git'
 let Grep_Skip_Files = '*.bak *~'
+
+"==============================
+" seiya.vim
+"==============================
+let g:seiya_auto_enable=1
 
 " edit tabs
 nnoremap <C-w>t :tabnew<CR>
