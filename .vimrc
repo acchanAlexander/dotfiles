@@ -100,10 +100,10 @@ endif
 colorscheme jellybeans
 
 """indent
-set tabstop=4
+set tabstop=2
 set autoindent
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 
 " enable syntax highlighting
 syntax enable
