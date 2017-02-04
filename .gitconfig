@@ -31,6 +31,7 @@
     sh  = show
     so  = remote show origin
     up  = pull --rebase
+    pom = push origin master
     rbm = rebase master
     ad  = add
     ci  = commit
