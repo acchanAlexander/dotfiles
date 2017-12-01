@@ -109,3 +109,4 @@ set shiftwidth=2
 syntax enable
 
 set nu
+set ignorecase
