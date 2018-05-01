@@ -4,4 +4,4 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 source ~/dotfiles/.bashrc
 ### add 'load this .bashrc command in your .bashrc'
-echo >> ~/.bashrc && echo '# setting' >> ~/.bashrc && echo 'source ~/.dotfiles/.bashrc' >> ~/.bashrc
+echo >> ~/.bashrc && echo '# setting' >> ~/.bashrc && echo 'source ~/dotfiles/.bashrc' >> ~/.bashrc
