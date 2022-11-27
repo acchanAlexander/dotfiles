@@ -7,7 +7,7 @@
 # end
 [user]
     name  = acchanAlexander
-    email = 
+    email = my@email.addr
 [color]
     status      = auto
     diff        = auto
