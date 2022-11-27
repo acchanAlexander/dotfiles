@@ -6,7 +6,7 @@
 #    insteadOf = git://
 # end
 [user]
-    name  = acchanAlexander
+    name  = myname
     email = my@email.addr
 [color]
     status      = auto
