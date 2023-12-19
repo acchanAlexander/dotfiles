@@ -37,6 +37,7 @@
     ci  = commit
     cam = commit --amend    # fix a last commit
     co  = checkout
+    sw  = switch
     fe  = fetch
     # branch
     br  = branch
