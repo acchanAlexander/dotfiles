@@ -16,6 +16,8 @@
     grep        = auto
 [push]
     default = tracking
+[pull]
+    rebase = false
 [core]
     excludesfile = ~/.gitignore
     excludesfile = ~/.gitignore_global
