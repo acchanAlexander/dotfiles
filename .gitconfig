@@ -17,6 +17,8 @@
 [push]
     default = simple
     autoSetupRemote = true
+[pull]
+    rebase = false
 [core]
     excludesfile = ~/.gitignore
     excludesfile = ~/.gitignore_global
