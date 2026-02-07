@@ -15,7 +15,8 @@
     interactive = auto
     grep        = auto
 [push]
-    default = tracking
+    default = simple
+    autoSetupRemote = true
 [core]
     excludesfile = ~/.gitignore
     excludesfile = ~/.gitignore_global
