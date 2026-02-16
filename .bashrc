@@ -9,6 +9,7 @@ alias ...='cd ../../../ && l'
 
 ### aliases docker
 alias dc='docker compose'
+alias dce='docker compose exec'
 
 ### prompt
 PS1='[\t \u \W]$ '
